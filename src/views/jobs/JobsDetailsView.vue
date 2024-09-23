@@ -5,14 +5,13 @@
 
 <script>
 export default {
- data(){
-    return {
-        id: this.$route.params.id // colect the id from route /jobs/:id  and attribute to id variable
-    }
- }
+  props: ['id'],
+  // data() {
+  //   return {
+  //     id: this.$route.params.id // colect the id from route /jobs/:id  and attribute to id variable
+  //   }
+  // }
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
